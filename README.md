@@ -32,7 +32,7 @@ Here the terms functionalities and components are used synonymously.
   
 
 ![alt text](https://github.com/rajayourfriend/EraV2_S5_Assignment/blob/main/images/plot_results_image.png?raw=true)
-
+Fig. This image is obtained from function **plotResults**()
 
 
 ## Components Explanation of *model.py*
@@ -53,6 +53,7 @@ Here the terms functionalities and components are used synonymously.
   The dataset used here is MNIST and is downloaded from pytorch's torchvision. Here dataset undergoes various transformations that are explained below and being used for training. Even testing also needs some data transformations. **getTrainDataset**() and **getTestDataset**() are the functions that do it.
   
 ![alt text](https://github.com/rajayourfriend/EraV2_S5_Assignment/blob/main/images/sample_training_images.png?raw=true)
+Fig. This image is obtained from function **plotImages**()
 
 ### Transformations
 
