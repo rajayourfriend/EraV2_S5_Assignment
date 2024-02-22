@@ -30,6 +30,11 @@ Here the terms functionalities and components are used synonymously.
   Using optimizer and scheduler obtained from **getOptimizer**() and **getScheduler**() respectively, the training is conducted by invoking the function **train**(). In the same way, the testing is performed by the function **test**().
   End results of training and testing can be visualized by invoking **plotResults**().
   
+
+![alt text](https://github.com/rajayourfriend/EraV2_S5_Assignment/blob/main/images/plot_results_image.png?raw=true)
+
+
+
 ## Components Explanation of *model.py*
 
 ### Constructor of Net2 Class
@@ -46,6 +51,8 @@ Here the terms functionalities and components are used synonymously.
 ### Dataset
 
   The dataset used here is MNIST and is downloaded from pytorch's torchvision. Here dataset undergoes various transformations that are explained below and being used for training. Even testing also needs some data transformations. **getTrainDataset**() and **getTestDataset**() are the functions that do it.
+  
+![alt text](https://github.com/rajayourfriend/EraV2_S5_Assignment/blob/main/images/sample_training_images.png?raw=true)
 
 ### Transformations
 
