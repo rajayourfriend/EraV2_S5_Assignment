@@ -7,18 +7,18 @@ Here the terms functionalities and components are used synonymously.
 
 ### S5.ipynb
 
-  File S5.ipynb is the starting point where the execution of the notebook is possible. It imports and invokes the functionalities from other python files such as model.py and utils.py.
+  File <u>S5.ipynb</u> is the starting point where the execution of the notebook is possible. It imports and invokes the functionalities from other python files such as <u>model.py</u> and <u>utils.py</u>.
 
 ### model.py
 
-  File model.py is the one where the Network architecture or AI model that works as neural network system that gets trained and can be further used during inference to test.
+  File <u>model.py</u> is the one where the Network architecture or AI model that works as neural network system that gets trained and can be further used during inference to test.
 
 ### utils.py
 
-  File utils.py is the one where the utilities such as plotting, dataset handling, transformations on data, training and testing functionalities are implemented.
+  File <u>utils.py</u> is the one where the utilities such as plotting, dataset handling, transformations on data, training and testing functionalities are implemented.
 
 
-## Components Explanation of S5.ipynb
+## Components Explanation of <u>S5.ipynb</u>
 
 ### main
 
@@ -30,7 +30,7 @@ Here the terms functionalities and components are used synonymously.
   Using optimizer and scheduler obtained from **getOptimizer**() and **getScheduler**() respectively, the training is conducted by invoking the function **train**(). In the same way, the testing is performed by the function **test**().
   End results of training and testing can be visualized by invoking **plotResults**().
   
-## Components Explanation of model.py
+## Components Explanation of <u>model.py</u>
 
 ### Constructor of Net2 Class
 
@@ -41,7 +41,7 @@ Here the terms functionalities and components are used synonymously.
 
   The functionality of forward propagation is implemented in the function **forward**(). How the network is prepared by arranging the various layers in sequence is done here.
 
-## Components Explanation of utils.py
+## Components Explanation of <u>utils.py</u>
 
 ### Dataset
 
